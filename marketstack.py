@@ -77,11 +77,12 @@ class MarketStack:
         }
 
     def get_api_response_code(self):
+        assert marketstack_api_key != "YOUR_API_KEY", "Please update your API Key."
         response = requests.get(self.url, self.params)
         return response
 
     def get_api_response(self):
-        print(self.url, self.params)
+        # print(self.url, self.params)
         api_result = self.get_api_response_code()
         return api_result.json()
 
