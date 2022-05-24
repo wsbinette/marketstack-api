@@ -1,9 +1,27 @@
+'''
+########################################################################################################################
+Make sure to update the API_KEY variable with your own API key. You can get an API key by logging into your account at https://www.marketstack.com/ or making an account at https://www.marketstack.com/signup.
+
+########################################################################################################################
+'''
+
+marketstack_api_key = "YOUR_API_KEY"
+
+def set_api_key(api_key):
+    global marketstack_api_key
+    marketstack_api_key = api_key
+
+'''
+########################################################################################################################
+Don't touch anything beneath this line. All you need to do is add your API Key.
+########################################################################################################################
+'''
+
 import requests
 import pandas as pd
 from dateutil.parser import parse
 import re
 
-marketstack_api_key = 'e29440a8c380129b0fc1d5ac61305b40'
 marketstack_url = 'http://api.marketstack.com/v1/'
 
 #Error Response Messages for API
