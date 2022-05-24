@@ -19,12 +19,12 @@ To use this package simply clone the git repo into your directory and install th
 git clone https://github.com/wsbinette/marketstack-api.git
 ```
 ### Requirements Installation
-For you're convenience, I've included a configuration file, requirements.txt, that will install all the requirements for you. Simply run the following command to install the requirements:
+For your convenience, I've included a configuration file, requirements.txt, that will install all the requirements for you. Simply run the following command to install the requirements:
 ```bash
 pip install -r requirements.txt
 ```
 ### API Key
-After you've made cloned the repo and installed the requirements, you need to get your own Personal API key for the Market Stack API. You can do this by going to the [Market Stack API](https://marketstack.com/documentation) and creating an account. Once you have your key, you can set your key using the "set_api_key" method.
+After you've cloned the repo and installed the requirements, you need to get your own Personal API key for the Market Stack API. You can do this by going to the [Market Stack API](https://marketstack.com/documentation) and creating an account. Once you have your key, you can set your key using the "set_api_key" method.
 
 To set your api_key using the built in method, use the code below.
 
